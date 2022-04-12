@@ -21,7 +21,7 @@ jobs:
       id: prov-profile
       uses: Apple-Actions/download-provisioning-profiles@v1
       with:
-        bundle-id: com.infiniqa.sapcbo
+        bundle-id: com.maswindobumimas.app
         issuer-id: ${{ secrets.APPCONNECT_API_ISSUER }}
         api-key-id: ${{ secrets.APPCONNECT_API_KEY_ID }}
         api-private-key: ${{ secrets.APPCONNECT_API_KEY_PRIVATE }}
