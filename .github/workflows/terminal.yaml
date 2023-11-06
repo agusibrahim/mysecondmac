@@ -1,4 +1,4 @@
-name: Open Terminal
+name: Terminal (mac)
 
 on: 
   workflow_dispatch:
