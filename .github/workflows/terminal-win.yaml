@@ -1,4 +1,4 @@
-name: Terminal (linux)
+name: Terminal (win)
 
 on: 
   workflow_dispatch:
