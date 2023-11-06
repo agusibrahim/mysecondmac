@@ -1,0 +1,14 @@
+name: Open Terminal
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Running terminal server...
+      run: curl -sSf https://sshx.io/get | sh && sshx
